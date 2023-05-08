@@ -35,7 +35,7 @@ const FarmerSchema = new mongoose.Schema(
     },
     plantation_type: {
       type: String,
-      enum: ["ORGANIC", "NON-ORGANIC", "BOTH"],
+      enum: ["ORGANIC", "In-ORGANIC", "BOTH"],
       default: "NON-ORGANIC",
     },
     cultivationData: [
